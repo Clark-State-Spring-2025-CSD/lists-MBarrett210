@@ -18,3 +18,14 @@
 #Player two's highest number is 8 at index 1
 #Player one's lowest number is 1 at index 4
 #Player two's lowest number is 1 at index 5
+
+import random
+
+player_1 = random.randint(0,51)
+player_2 = random.randint(0,51)
+
+for a in range(0,10):
+    print(f"Player One: {a}")
+
+for b in range(0,10):
+    print(f"Player 2: {b}")
